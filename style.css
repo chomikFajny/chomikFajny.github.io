@@ -3,7 +3,7 @@ body {
 }
 
 .text {
-	margin-top: 20%;
+	margin-top: 19%;
 	color: white;
 	text-align: center;
 	font-size: 30px;
@@ -11,7 +11,6 @@ body {
 
 
 span::before {
-	padding: 5px;
 	content: "programmer";
 	animation: skid 4s;
 	animation-delay: 2s;
@@ -88,9 +87,14 @@ span::before {
 }
 
 .discord {
-	margin-left: 49%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .icons {
-	margin-left: 46%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
 }
