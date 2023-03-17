@@ -3,7 +3,7 @@ body {
 }
 
 .text {
-	margin-top: 19%;
+	margin-top: 15%;
 	color: white;
 	text-align: center;
 	font-size: 30px;
@@ -97,4 +97,6 @@ span::before {
 	justify-content: center;
 	align-items: center;
 	margin-top: 10%;
+	color: white;
+	font-size: 30px;
 }
