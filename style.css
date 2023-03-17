@@ -1,1 +1,96 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/2562637.jpg")
+}
 
+.text {
+	margin-top: 20%;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+span::before {
+	padding: 5px;
+	content: "programmer";
+	animation: skid 4s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards
+}
+
+@keyframes skid {
+	0% {
+		content: "programmer";
+	}
+	5% {
+		content: "programme$";
+	}
+	10% {
+		content: "programm$$";
+	}
+	15% {
+		content: "program$$$";
+	}
+	15% {
+		content: "progra$$$$";
+	}
+	20% {
+		content: "progr$$$$$";
+	}
+	25% {
+		content: "prog$$$$$$";
+	}
+	30% {
+		content: "pro$$$$$$$";
+	}
+	35% {
+		content: "pr$$$$$$$$";
+	}
+	40% {
+		content: "p$$$$$$$$$";
+	}
+	45% {
+		content: "$$$$$$$$$$";
+	}
+	50% {
+		content: "$$$$$$$$$";
+	}
+	55% {
+		content: "$$$$$$$$";
+	}
+	60% {
+		content: "$$$$$$$";
+	}
+	65% {
+		content: "$$$$$$";
+	}
+	70% {
+		content: "$$$$$";
+	}
+	75% {
+		content: "$$$$";
+	}
+	80% {
+		content: "$$$d";
+	}
+	85% {
+		content: "$$id";
+	}
+	90% {
+		content: "$kid";
+	}
+	95% {
+		content: "skid";
+	}
+	100% {
+		content: "skid";
+	}
+}
+
+.discord {
+	margin-left: 49%;
+}
+
+.icons {
+	margin-left: 46%;
+}
